@@ -6,8 +6,19 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Assignment-3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope{
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        }
+    </style>
 </head>
-<body>
+<body class="manrope">
     <header class="container mx-auto my-5 bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF] ">
 <!-- Navbar start -->
     <div class=" md:flex justify-between">
@@ -150,11 +161,31 @@
     </div>
  </section>
 </main>
-<footer style="margin-top: 100px;">
-
-    <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-red-600 m-4 h-10 w-10 rounded-3xl">
-        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-      </svg>
+<footer>
+    <div class="text-center justify-center bg-[#1C1C1C]">
+        <div>
+            <h2 class="text-3xl font-extrabold text-[#E9E9E9]"> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="size-2 inline h-8 w-8 bg-[#ABEF5F] rounded-3xl p-1 text-black">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                   Rinterio</h2>
+                   <p class="font-medium text-base text-[#737373] pt-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="inline mt-3">
+            <ul  class=" md:flex gap-4 text-lg  text-[#E9E9E9] text-center justify-evenly">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div>
+            <button  class="w-52 h-12 bg-[#ABEF5F] text-[#1C1C1C] text-xl font-extrabold rounded-3xl inline ">Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="size-2 inline h-8 w-8 bg-[#1C1C1C] text-white rounded-3xl p-1 ">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </button>
+        </div>
     </div>
 </footer>
 </body>
